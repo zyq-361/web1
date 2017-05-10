@@ -1,0 +1,13 @@
+ a.hot{
+	font-family: '微软雅黑';
+	font-size:16px;
+	color: #65a7d0;
+	font-weight: bold;
+}
+a:link{
+	color: #727272;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
