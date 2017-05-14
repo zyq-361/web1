@@ -1,0 +1,50 @@
+*{
+	padding: 0 auto;
+	text-align: center;
+}
+.bg{
+	background-image: url(../image/bj.png);
+	width: 225px;
+	height: 525px;
+	background-repeat: no-repeat;
+	padding-right: 40px;
+	margin-left: 40px;
+}
+.menu .special{
+	background-image: url(../image/lvbiaoti.png);
+	width: 225px;
+	height: 62px;
+	background-repeat: no-repeat;
+	background-position: -25px 25px;
+	line-height: 85px;
+	padding-right: 80px;
+}
+a{
+	color: grey;
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+	/* padding-right: -200px */;
+	}
+.head{
+	background-image: url(../image/header.png);
+	width: 255px;
+	height: 40px;
+	background-repeat: no-repeat;
+}
+.menu .all{
+	background-image: url(../image/baibiaoti.png);
+	width: 225px;
+	height: 62px;
+	background-repeat: no-repeat;
+	background-position: -25px 17px;
+	line-height: 65px;
+	padding-left:0px;
+}
+li.special a{
+	color: white;
+}
+li.special{
+	padding-right: 80px;
+}
