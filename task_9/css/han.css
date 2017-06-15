@@ -1,0 +1,146 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-size: 12px;
+	color: #522a06;
+	font-family: '宋体';
+	text-align: center;
+	border-image: none;
+	list-style-type: none;
+	text-decoration: none;
+}
+a:link{
+	color: #522a06;
+}
+a:hover{
+	text-decoration: underline;
+}
+body{
+	background-image: url(../images/bodybg.gif);
+}
+#header{
+	height: 205px;
+	background-image: url(../images/bg.gif);
+	background-position: center top; 
+	
+}
+#banner{
+	width: 1000p;
+	height: 164px;	
+	
+}
+#banner img{
+	margin-left:-640px;
+	margin-top: 35px;
+}
+#nav{
+	height: 40px;
+	background-image: url(../images/nav.jpg);
+}
+.nav_body{
+	width: 1000px;
+	text-align: center;
+}
+.nav_content{
+	width:800px;
+	font-weight: bold;
+}
+.nav_content ul li a{
+	color:#fff;
+	font-size: 12px;
+	text-align: center;
+	padding-left: 15px; 
+	padding-right: 15px;
+}
+.nav_content ul li a:hover{
+	text-decoration: none;
+}
+.nav_content ul li{
+	color: #fff;
+	margin-top: 10px;
+	float: left;
+}
+#special{
+	color: #f9f603
+}
+.nav_search{
+	padding-top: 6px;
+}
+.text{
+	width: 140px;
+	height:  19px;
+	background-color: #f8f5ee;
+}
+.button{
+	width: 44px;
+	height: 21px;
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #f8f5ee;
+}
+#content{
+	width: 1000px;
+	text-align: center;
+	clear: right;
+	clear: left;
+}
+#content_top{
+	overflow: hidden;
+}
+.news_pic{
+	width: 324px;
+	height: 243px;
+	background-image: url(../images/news_bg.png);
+	background-repeat: no-repeat;
+	/* background-position: 5px 10px; */
+	float: left;
+	text-align: center;
+
+	
+
+}
+.news_pic img{
+	text-align: center;
+	padding-left: 5px;
+	padding-top: 20px;
+}
+.news_list{
+	width: 330px;
+	padding-right: 38px;
+	float: left;
+}
+.news_list span{
+	float: right;
+}
+.news_list li{
+	list-style-type: circle;
+	line-height: 30px;
+}
+.news_announce{
+	width: 277px;
+	padding-top: 20px;
+	float: right;
+}
+#content_bottom_left{
+	width: 715px;
+	float: left;
+}
+.academic{
+	width: 340px;
+}
+.book_news{
+	width: 340px;
+	padding-left: 25px;
+}
+.fengcai{
+	width: 700px;
+	clear: right;
+	clear: left;
+}
+#content_bottom_right{
+	width: 280px;
+	margin-top: 20px;
+	float: right;
+}
+
+
