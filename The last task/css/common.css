@@ -1,0 +1,165 @@
+/*页面通用样式设置*/
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	text-align: center;
+	align-content:center;
+	font-size:12px;
+	color:#522a06;
+	padding:0px;
+	font-family:"宋体",arial;
+}
+img{
+	border:none;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	color: #020CF7;
+}
+a:link{
+	color:#1006FC;
+}
+a:hover{
+	text-decoration:none;
+}
+/*头部样式设置*/
+
+.header{
+	width: 100%px;
+	height: 500px;
+}
+.nav{
+	width: 100%;
+	height: 70px;
+	background-color: #000000;
+	filter:alpha(Opacity=80);-moz-opacity:0.8;opacity: 0.8;
+}
+.nav_logo{
+	background-image: url(../images/logoche.png.png);
+	width: 200px;
+	height: 50px;
+	background-repeat: no-repeat;
+	margin-top: 15px;
+	margin-left: 50px;
+	float: left;
+}
+.nav_content{
+	width: 900px;
+	height: 70px;
+}
+.nav_content #special{
+color: #30FD03;
+}
+.nav_content li{
+	display: block;
+	width: 100px;
+	margin-top: 25px;
+	margin-left: 25px;
+	list-style-type: none;
+	float: left;
+	font-family: arial;
+	font-size: 1.2em;
+}
+.nav_content li a{
+	text-align: center;
+	color: white;
+}
+.nav_content .block:hover{
+background-color: gray;
+}
+.nav_content .block:hover ul{
+	display: block;
+	width: 100px;
+	height: 180px;
+}
+.nav_content .block ul li:hover{
+	background-color: red;
+}
+.nav_content .block li{
+	width: 100px;
+	margin-top:20px;
+	margin-left: 0px;
+	height: 40px;
+}
+/* li{ display: block;
+	width:100px;
+	text-align:center;
+	background:#f66; 
+	color:#fff; 
+    height:40px;
+	line-height:40px;
+	position:relative;
+} */
+.nav .nav_search{
+	width: 300px;
+	height: 50px;
+	margin-top: 20px;
+	float: right;
+}
+.nav_search .text-search{
+	float: left;
+	width: 200px;
+	height: 22px;
+	position: absolute; top:22px; right:350px;
+	border: none;
+}
+.nav_search .button{
+	width: 40px;
+	height: 33px;
+	float: left;
+	background-image: url(../images/search_button_green.png);
+	background-repeat: no-repeat;
+	background-size: 40px 32px;
+	border: 1px solid #000;
+	background-color: #000;
+	padding: 0px;
+	position: absolute; top:16px;  right:300px;
+}
+.nav_register {
+color: white;
+}
+.nav_register  .log li{
+	float: right;
+	font-size: 1.2em;
+	font-family: arial;
+	position: absolute; top:25px; right:180px;
+}
+.nav_register  .log .login{
+	border-left: 1px white solid;
+	padding-left: 20px;
+	position: absolute; top:25px; right:100px;
+}
+.nav_register  .log li a{
+	color: white;
+}
+.nav_register  .log li a:hover{
+	color: #30FD03;
+}
+.banner{
+	width: 100%;
+	height: 375px;
+	background-image: 
+	url(../images/audi-banner2.jpg);
+	/* background-position: 30%;
+	background-size: 70% 500px; */
+	background-repeat: no-repeat;
+}
+/*尾部样式设置*/
+.footer{
+	height:70px;
+	width:100%px;
+	background-color: #272727;
+}
+.ending{
+	line-height:20px;
+	padding-top: 25px;
+	color: white;
+	font-family: arial;
+	font-size: 14px;
+	text-align: center;
+}

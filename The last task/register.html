@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>注册</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		*{
+			padding: 0px;
+			margin: 0px;
+		}
+		body{
+			font:normal,normal,16px,arial;
+			background-image: url(images/bg_reg.jpg);
+			opacity: 0.8;
+			color: white;
+		}
+		.nav {
+
+		}
+		.logo img{
+			position: absolute;top: 45px;left: 10px;
+
+		}
+		h1{
+			position: absolute;top: 45px;left: 340px;
+		}
+		.return li{
+			float: right;
+			list-style-type: none;
+			margin-right: 40px;
+			margin-top: 55px;
+			font-size: 24px;
+		}
+		.return li a{
+			color: #FDFDFD;
+			font-size: 24px;
+			text-decoration: none;
+		}
+		.return li a:hover{
+			color: #CEFF00;
+		}
+		.content{
+			width: 450px;
+			height: 600px;
+			border: 1px solid gray;
+			position: absolute;top: 95px;left: 160px;
+		}
+		.content h2{
+			text-align: center;
+			background-color: #F8CF08;
+			width: 450px;
+			height: 50px;
+			padding-top: 17px;
+		}
+		.content .form_reg{
+			text-align: center;
+		}
+		.content .form_reg input{
+		width: 320px;
+		height: 40px;
+		margin-top: 20px;	
+		}
+		.content .form_special{
+			margin-top: 20px;
+
+			position: relative;left: 70px;
+		}
+		.content .form_special a{
+			color: white;
+			text-decoration:none; 
+		}
+		.content .form_special a:hover{
+			color:#CEFF00;
+
+		}
+		.form .back:hover{
+			background-color: #FFDF08;
+			border: none;
+		}
+		.form .last{
+			color: white;
+			text-decoration:none; 
+		}
+		.content .last a{
+			color: white;
+			text-decoration:none; 
+		}
+		.content .last a:hover{
+			color:#CEFF00;
+
+		}
+		.content .last .left{
+			padding-top: 20px;
+		
+			position: relative;left: 70px;
+		}
+		.content .last .lasts{
+			padding-top: 20px;
+		
+			position: relative;left: 155px;
+		}
+		.footer{
+			height:70px;
+			width:1366px;
+			background-color: #272727;
+			position: absolute;top: 800px;
+		}
+		.ending{
+			line-height:20px;
+			padding-top: 25px;
+			color: white;
+			font-family: arial;
+			font-size: 14px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="nav">
+		<div class="logo">
+		<img src="images/logo_cheyouhuihui.png">
+		</div>
+		<h1>通行证</h1>
+		<div class="return">
+			<ul>
+				<li>已有账号，<a href="login.html">马上登录</a></li>
+				<li><a href="index.html
+				">返回车友汇</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="content">
+		<h2>注册会员</h2>
+		<form action="/reg_commit.do" method="post" class="form">
+					<div class="form">
+							<p class="form_reg">
+								<input autocomplete="off" type="text" name="username" placeholder="用户名，4~16个字符">
+							</p>
+							<p class="form_reg">
+								<input autocomplete="off" type="password" name="password" placeholder="密码">
+							</p>
+							<p class="form_reg">
+								<input autocomplete="off" type="password" name="password" placeholder="确认密码">
+							</p>
+							<p class="form_reg">
+								<input autocomplete="off" type="text" name="phonenumber" placeholder="手机号，11位数字">
+							</p>
+							<p class="form_reg">
+								<span>
+									<input type="text" name="验证码" placeholder="验证码">
+								</span>
+							</p>
+							<p class="form_special">
+								<input type="checkbox" name="autolog" checked="" id="Useragreement" class="check-c">我已阅读并接受
+								<a href="#" target="_blank" class="main-link-color">用户协议</a>
+								<span class="form-tip"></span>
+							</p>
+							<p class="form_reg">
+							<input type="submit" value="注册" class=" back">
+							</p>
+							<p class="last">
+								<a href="#" onclick="regType(1)" class="left">使用邮箱注册</a>
+								<span class="lasts">已有帐号，去<a href="login.html">登录</a></span>
+							</p>
+					</div>
+		</form>
+	</div>
+	<div class="footer">
+		<div class="ending">
+			Copyright&copy;2017 Zhaoyongquan,All Rights Reserved
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,129 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+p{
+	text-indent: 2em;
+	font-family: arial;
+	line-height: 1.5em;
+	text-align: left;
+	margin: 20px;
+}
+
+body{
+	text-align: center;
+	background-color: #EDEDED;
+}
+a{
+	text-decoration: none;
+}
+h2{
+	margin: 30px;
+}
+hr{
+	margin: 20px;
+}
+.content{
+	width: 800px;
+	height: 2500px;
+	position: absolute;left:280px;
+}
+.mianbaoxie{
+	width: 250px;
+	height: 40px;
+	position: absolute;
+	left:-250px;top: -20px;
+
+}
+.mianbaoxie a{
+	color: grey;
+
+}
+.mianbaoxie a:hover{
+	color:#FFB003;
+}
+.content_pha{
+	width: 800px;
+	height: 2000px;
+	border: 1px solid #959494;
+}
+.tit_left{
+	float: left;
+	margin-left: 50px;
+}
+.tit_right{
+	float: right;
+	margin-right: 200px;
+}
+.article img{
+	width: 500px;
+	height: 350px;
+
+}
+.comment{
+	width: 800px;
+	height: 800px;
+	margin-top: 100px;
+	border: 1px solid gray;
+}
+.wangyou{
+	width: 680px;
+	height: 300px;
+}
+.hw{
+	width: 680px;
+	height: 450px;
+	
+}
+.wangyou p a{
+	float: left;
+}
+.wangyou p .yiban img{
+	width: 32px;
+	height: 32px;
+	margin-top: -10px;
+}
+.wangyou p .tebie img{
+	width: 26px;
+	height: 26px;
+	margin-top: -5px;
+
+}
+.wangyou textarea{
+	
+	width: 600px;
+	height: 120px;
+
+}
+.wangyou input{
+	width: 80px;
+	height: 30px;
+	margin-top: 20px;
+	margin-right: -510px;
+}
+.xiangxi{
+	width: 600px;
+	height: 100px;
+}
+.xiangxi img{
+	width: 64px;
+	height: 64px;
+	float: left;
+}
+.xiangxi span{
+	display: block;
+	float: right;
+}
+.xiangxi p{
+	margin-top: 30px;
+	line-height: 1.5em;
+}
+.special{
+	height:1px;border:none;
+	border-top:1px dashed #0066CC
+}
+.footer{
+	margin-left: -300px;
+	margin-right: -269px;
+	margin-top: 100px;
+}
